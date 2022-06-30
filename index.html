@@ -13,17 +13,28 @@
     </header>
 
     <main>
+      <!-- <a href="https://github.com/IvanSIdIT/Form-practice/tree/main" class="link" target="_blank"
+        >This is link</a
+      > -->
+
       <form action="#" method="post" enctype="multipart/form-data">
         <div>
-          <input tabindex="1" type="text" name="Username" value="" />
+          <input
+            placeholder="Type your name"
+            class="user"
+            tabindex="1"
+            type="text"
+            name="Username"
+            value=""
+          />
         </div>
         <br />
         <div>
-          <input tabindex="2" type="password" name="userpass" />
+          <input placeholder="Type your password" tabindex="2" type="password" name="userpass" />
         </div>
 
         <div>
-          <p><input tabindex="3" type="radio" name="Item" value="Messi" />Месси</p>
+          <p class="item"><input tabindex="3" type="radio" name="Item" value="Messi" />Месси</p>
           <p><input tabindex="3" type="radio" name="Item" value="CR7" />Роналду</p>
         </div>
         <br />
@@ -41,6 +52,38 @@
             <input tabindex="7" type="checkbox" name="Out of stock" value="Nov1" />Нет в наличии
           </p>
           <p><input tabindex="8" type="checkbox" name="On the way" value="Nof2" />В пути</p>
+        </div>
+        <br />
+        <div>
+          <h2>Area for Text</h2>
+          <textarea cols="40" rows="10"></textarea>
+        </div>
+        <br />
+
+        <div>
+          <h2>Selector</h2>
+          <select name="select" multiple>
+            <option value="red">Красный</option>
+            <option value="yellow">Желтый</option>
+            <option value="blue">Синий</option>
+            <option value="green">Зеленый</option>
+            <option value="brown">Коричневый</option>
+            <option value="gray">Серый</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <h2>Buttons</h2>
+          <button type="submit">Send</button>
+        </div>
+        <br />
+        <div>
+          <button type="reset">reset</button>
+        </div>
+        <br />
+        <div>
+          <h2>Прикрепить файл</h2>
+          <input class="file" type="file" />
         </div>
       </form>
     </main>

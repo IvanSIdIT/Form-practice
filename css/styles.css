@@ -2,3 +2,12 @@ h1 {
   margin: 0px auto;
   width: 290px;
 }
+
+link {
+}
+
+.file {
+  color: tomato;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
